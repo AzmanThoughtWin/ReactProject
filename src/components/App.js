@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import UserGreeting from './UserGreeting';
+import NameList from './NameList';
+// import UserGreeting from './UserGreeting';
 // import ParentComponent from './ParentComponent';
 // import { Greet } from './Greet';
 // import Welcome from './Welcome';
@@ -14,7 +15,8 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-        <UserGreeting/>
+        <NameList/>
+        {/* <UserGreeting/> */}
         {/* <ParentComponent/> */}
         {/* <EventBind/> */}
         {/* <FunctionClick/>
