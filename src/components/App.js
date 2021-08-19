@@ -4,11 +4,15 @@ import { Greet } from './Greet';
 import Welcome from './Welcome';
 import Message from './message';
 import Counter from './counter';
+import FunctionClick from './FunctionClick';
+import ClassClick from './ClassClick';
 
 class App extends Component {
   render(){
     return (
       <div className="App">
+        <FunctionClick/>
+        <ClassClick/>
         {/* <Counter/> */}
         {/* <Message/> */}
         {/* <Greet name="Bruce" heroName="Batman">
@@ -16,12 +20,13 @@ class App extends Component {
         </Greet>
         
         <Welcome name="Diana" heroName="Wonder Woman"/>
-      <Welcome name="Clark" heroName="Superman" /> */}
+        <Welcome name="Clark" heroName="Superman" /> */}
+        {/*         
         <Greet name="Diana" heroName="Wonder Woman">
           <button>Action</button>
         </Greet>
         <Greet name="Clark" heroName="Superman" />
-        <Welcome name="Bruce" heroName="Batman"/>
+        <Welcome name="Bruce" heroName="Batman"/> */}
       </div>
     );
   }
