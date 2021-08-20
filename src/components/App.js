@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import LifecycleA from './LifecycleA';
+import Table from './Table';
 
 
 class App extends Component {
   render(){
     return (
       <div className="App">
-        <h1><LifecycleA/></h1>
+        <Table/>
       </div>
     );
   }
